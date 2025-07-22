@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "category": "일반",
+        "question": "발열이 있습니까?",
+        "type": "boolean"
+    },
+    {
+        "id": 2,
+        "category": "일반",
+        "question": "기침이 있습니까?",
+        "type": "boolean"
+    },
+    {
+        "id": 3,
+        "category": "일반",
+        "question": "호흡곤란이 있습니까?",
+        "type": "boolean"
+    },
+    {
+        "id": 4,
+        "category": "통증",
+        "question": "통증이 있는 부위는 어디입니까?",
+        "type": "text"
+    },
+    {
+        "id": 5,
+        "category": "통증",
+        "question": "통증의 정도는 어느 정도입니까? (1~10)",
+        "type": "scale",
+        "min": 1,
+        "max": 10
+    },
+    {
+        "id": 6,
+        "category": "소화기",
+        "question": "메스꺼움이나 구토 증상이 있습니까?",
+        "type": "boolean"
+    },
+    {
+        "id": 7,
+        "category": "소화기",
+        "question": "복통이 있습니까?",
+        "type": "boolean"
+    },
+    {
+        "id": 8,
+        "category": "소화기",
+        "question": "설사가 있습니까?",
+        "type": "boolean"
+    },
+    {
+        "id": 9,
+        "category": "기타",
+        "question": "최근 복용 중인 약물이 있습니까?",
+        "type": "text"
+    },
+    {
+        "id": 10,
+        "category": "기타",
+        "question": "최근 입원, 수술 혹은 질병력이 있습니까?",
+        "type": "text"
+    }
+]

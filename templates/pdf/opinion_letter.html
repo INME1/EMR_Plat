@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 30px; }
+        h2 { text-align: center; }
+        .section { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2>진료 소견서</h2>
+
+    <div class="section">
+        <strong>환자명:</strong> {{ record.appointment.patient.name }}<br>
+        <strong>진단일:</strong> {{ record.created_at.date }}
+    </div>
+
+    <div class="section">
+        <strong>진단명:</strong><br>
+        {{ record.diagnosis }}
+    </div>
+
+    <div class="section">
+        <strong>의사 메모:</strong><br>
+        {{ record.notes }}
+    </div>
+
+    <div class="section" style="text-align: right;">
+        발급의: {{ record.doctor.name }}
+    </div>
+</body>
+</html>

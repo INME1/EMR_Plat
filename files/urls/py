@@ -1,0 +1,7 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('upload/', views.upload_attachment, name='upload_attachment'),
+    path('<int:record_id>/attachments/', views.list_attachments, name='list_attachments'),
+]
